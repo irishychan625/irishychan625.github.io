@@ -54,30 +54,3 @@ h5 {
   color: white;
   transform: rotateY(180deg);
 }
-
-.vertical_flip {
-        width:300px; height:200px; position:relative;
-        -webkit-transform-style: preserve-3d;
-        -webkit-transform-origin: 100% 125px;
-        -webkit-transition: all 0.7s ease;
-        transform-style: preserve-3d;
-        transform-origin: 100% 125px;
-        transition: all 0.7s ease;
-                  }
-.container:hover .vertical_flip {
-                 -webkit-transform: rotateX(-180deg);
-                 transform: rotateX(-180deg);
-                  }
-.front, .back {
-           width:250px; 
-           height:250px; 
-           position:absolute; 
-           left:0; 
-           -webkit-backface-visibility:hidden;
-           backface-visibility:hidden;
-                   }
-.back {
-         -webkit-transform: rotateX(180deg);
-         transform: rotateX(180deg);
-         }
-
